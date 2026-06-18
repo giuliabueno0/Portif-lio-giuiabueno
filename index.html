@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Giulia Bueno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="menu-container">
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <div class="sobre-conteudo">
+            <img src="img/giulia.jpeg" alt="Minha Foto de Perfil" class="foto-perfil">
+            <div class="sobre-texto">
+                <p>Olá! Meu nome é Giulia Bueno e sou estudante de Engenharia de Software na UNINTER.</p>
+                <p>Tenho grande interesse na área de programação / dados.</p>
+                <p>Ultimamente estou trabalhando em uma fundição na parte logística como Programadora de Expedição (PCE).</p>
+                <p>Nos meus tempos livres gosto de estudar, praticar o que estudo e às vezes ler.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação</h2>
+        
+        <div class="formacao-item">
+            <h3>Ensino Médio Completo</h3>
+            <p><strong>Instituição:</strong> Escola Estadual Dona Antônia Valadares</p>
+            <p><strong>Status:</strong> Concluído em 2024</p>
+        </div>
+
+        <div class="formacao-item">
+            <h3>Graduação em Engenharia de Software</h3>
+            <p><strong>Instituição:</strong> UNINTER</p>
+            <p><strong>Status:</strong> Em andamento (Previsão de conclusão: 2029)</p>
+        </div>
+
+        <div class="formacao-item">
+            <h3>Idiomas</h3>
+            <p>Português (Nativo)</p>
+            <p>---------------------------</p>
+            <p>Inglês (Intermediário)</p>
+            <p><strong>Instituição:</strong> Park Idiomas</p>
+            <p><strong>Status:</strong> Em andamento (Previsão de conclusão: 2028)</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="portfolio-container">
+            
+            <div class="projeto-card">
+                <h3>Projeto 1 - Trabalho Prático realizado sobre Banco de Dados Relacional</h3>
+                <p>Criação de um Modelo Entidade-Relacionamento (MER) sobre uma rede de hotéis e Implementação de uma locadora de veículos no MySQL Workbench, considerando um Modelo Relacional (modelo lógico) como orientação.</p>
+                <a href="https://drive.google.com/drive/folders/1-PIII7ZZSvHPMpUeviH4es5rU8wP9a-3?usp=drive_link" target="_blank">Ver no Drive</a>
+            </div>
+
+            <div class="projeto-card">
+                <h3>Projeto 2 - Trabalho Prático realizado sobre Análise e Modelagem de Sistemas</h3>
+                <p>Interpretação de requisitos e solicitações em uma entrevista com a dona da empresa Bergaworks e Criação da Modelagem de Sistemas solicitados.</p>
+                <a href="https://drive.google.com/drive/folders/1HgPXcz8aW5DMux2zRLRT-XzWdvZ8cNOM?usp=drive_link" target="_blank">Ver no Drive</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        
+        <form id="form-contato">
+            <div class="campo-grupo">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+            </div>
+
+            <div class="campo-grupo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="usuario@dominio.com">
+            </div>
+
+            <div class="campo-grupo">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."></textarea>
+            </div>
+
+            <button type="submit" id="btn-enviar">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
